@@ -129,6 +129,30 @@ cpp_learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/build
 .PHONY : cpp_learning/fast
 
+exercise_set.o: exercise_set.cpp.o
+.PHONY : exercise_set.o
+
+# target to build an object file
+exercise_set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/exercise_set.cpp.o
+.PHONY : exercise_set.cpp.o
+
+exercise_set.i: exercise_set.cpp.i
+.PHONY : exercise_set.i
+
+# target to preprocess a source file
+exercise_set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/exercise_set.cpp.i
+.PHONY : exercise_set.cpp.i
+
+exercise_set.s: exercise_set.cpp.s
+.PHONY : exercise_set.s
+
+# target to generate assembly for a file
+exercise_set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/exercise_set.cpp.s
+.PHONY : exercise_set.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_learning"
+	@echo "... exercise_set.o"
+	@echo "... exercise_set.i"
+	@echo "... exercise_set.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

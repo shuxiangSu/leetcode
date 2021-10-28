@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sushuxiang/CLionProjects/cpp_learning/exercise_set.cpp">
+			<Option target="cpp_learning"/>
+		</Unit>
+		<Unit filename="/Users/sushuxiang/CLionProjects/cpp_learning/exercise_set.h">
+			<Option target="cpp_learning"/>
+		</Unit>
 		<Unit filename="/Users/sushuxiang/CLionProjects/cpp_learning/main.cpp">
 			<Option target="cpp_learning"/>
 		</Unit>

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cpp_learning.dir/exercise_set.cpp.o"
   "CMakeFiles/cpp_learning.dir/main.cpp.o"
   "cpp_learning"
   "cpp_learning.pdb"
